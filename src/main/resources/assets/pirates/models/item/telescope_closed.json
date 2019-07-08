@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "block/item_frame",
-		"1": "block/gold_block",
-		"2": "block/concrete_black",
-		"particle": "block/item_frame"
+		"0": "blocks/itemframe_background",
+		"1": "blocks/gold_block",
+		"2": "blocks/concrete_black",
+		"particle": "blocks/itemframe_background"
 	},
 	"elements": [
 		{
@@ -21,7 +21,7 @@
 		},
 		{
 			"from": [7, 10, 7],
-			"to": [9, 18, 9],
+			"to": [9, 11, 9],
 			"faces": {
 				"north": {"uv": [0, 0, 2, 8], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 8], "texture": "#1"},
@@ -32,8 +32,8 @@
 			}
 		},
 		{
-			"from": [7.5, 18, 7.5],
-			"to": [8.5, 26, 8.5],
+			"from": [7.5, 11, 7.5],
+			"to": [8.5, 12, 8.5],
 			"faces": {
 				"north": {"uv": [0, 0, 1, 8], "texture": "#1"},
 				"east": {"uv": [0, 0, 1, 8], "texture": "#1"},
@@ -44,8 +44,8 @@
 			}
 		},
 		{
-			"from": [7.25, 26, 7.25],
-			"to": [8.75, 26.25, 8.75],
+			"from": [7.25, 12, 7.25],
+			"to": [8.75, 12.25, 8.75],
 			"faces": {
 				"north": {"uv": [0, 0, 1.5, 0.25], "texture": "#1"},
 				"east": {"uv": [0, 0, 1.5, 0.25], "texture": "#1"},
@@ -80,8 +80,8 @@
 			}
 		},
 		{
-			"from": [7.5, 26.255, 7.5],
-			"to": [8.5, 26.255, 8.5],
+			"from": [7.5, 12.255, 7.5],
+			"to": [8.5, 12.255, 8.5],
 			"faces": {
 				"north": {"uv": [0, 0, 1, 0], "texture": "#1"},
 				"east": {"uv": [0, 0, 1, 0], "texture": "#1"},
@@ -118,13 +118,5 @@
 			"rotation": [30, 225, 0],
 			"translation": [0, -2.5, 0]
 		}
-	},
-	"overrides":[
-	   {
-	       "predicate":{
-	           "pirates:closed": 1.0
-	       },
-	       "model":"pirates:item/telescope_closed"
-	   }
-	]
+	}
 }
