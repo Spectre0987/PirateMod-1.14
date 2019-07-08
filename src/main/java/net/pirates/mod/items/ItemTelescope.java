@@ -7,5 +7,4 @@ public class ItemTelescope extends Item {
 	public ItemTelescope() {
 		super(PItemProperties.BASIC_ONE);
 	}
-
 }
